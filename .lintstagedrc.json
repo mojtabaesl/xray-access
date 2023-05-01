@@ -1,0 +1,5 @@
+{
+  "*": ["cspell --no-must-find-files"],
+  "*.json": ["prettier --write"],
+  "*.ts": ["eslint --fix"]
+}

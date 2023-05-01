@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    "node_modules/**",
+    ".prettierignore",
+    ".prettierrc.json",
+    "./tsconfig.json",
+    "./.gitignore"
+  ],
+  "words": ["Mojtaba", "Eslami", "xgray", "yargs", "cli"]
+}

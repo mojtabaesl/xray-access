@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.test.ts", "./jest.config.ts"]
+}
