@@ -23,5 +23,6 @@ class LowWithLodash<T> extends Low<T> {
 }
 
 const defaultData: Data = { users: [] };
+
 const adapter = new JSONFile<Data>('db.json');
-export const db = new LowWithLodash(adapter, defaultData);
+export const db = new LowWithLodash<Data>(adapter, defaultData);
